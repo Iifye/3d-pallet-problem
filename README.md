@@ -1,2 +1,12 @@
-# 3d-pallet-problem
-This repository contains the C# implementation of the CPLEX model for solving the 3D pallet packing problem. The model optimizes the arrangement of items in a pallet to maximize space utilization and minimize transportation costs.
+# 3D托盤擺放問題
+
+這是一個關於三維托盤擺放問題的數學模型項目。該項目旨在找到最佳的擺放方案，以最小化使用的托盤數量，同時滿足訂單需求。
+
+## 項目目標
+
+- 最小化使用托盤的總數量
+- 滿足訂單需求和托盤裝載限制
+
+## 使用方法
+
+將項目克隆到本地計算機：
