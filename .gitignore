@@ -1,3 +1,8 @@
+# Navigate into the repository directory
+cd $REPO_NAME
+
+# Create .gitignore file
+cat > .gitignore <<EOF
 # Ignore Visual Studio files
 .vs/
 bin/
@@ -6,3 +11,9 @@ obj/
 # Ignore system files
 .DS_Store
 Thumbs.db
+EOF
+
+# Add .gitignore file to git
+git add .gitignore
+git commit -m "Add .gitignore file"
+git push origin main
